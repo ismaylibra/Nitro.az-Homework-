@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro.az- Avtomobillərin Alışı və Satışı Platforması</title>
+</head>
+<body style="background-image: url(photos/1000_F_133189433_1DskTSsOksPHOKveAgIatpbbdPmMSXwK.jpg) ;" >
+    <form style=" color: antiquewhite; border-radius:12px ;width:75%; margin: auto;backdrop-filter: blur(5px) saturate(52%); background-color: rgba(17, 25, 40, 0.82);;
+    ">
+        <h2 style="text-align: center;"> NİTRO.AZ</h2>
+        <span style="cursor:pointer; text-align: center;" >Bütün Elanlar</span>  <span style="margin-left:10px ; cursor: pointer; text-align: center;">AvtoSalonlar</span> <span style="margin-left:10px ;cursor: pointer; text-align: center;">Ehtiyat Hissələri və Aksessuarlar</span>
+       <h3 style="background-color: rgb(182, 182, 182) ; cursor: pointer; text-align: center; color: #000;">Elan Yerləşdirmək</h3>
+      <ul style="text-align:left">
+        <li>Üç ay ərzində bir nəqliyyat vasitəsi yalnız bir dəfə pulsuz dərc oluna bilər.</li>
+        <li>Üç ay ərzində təkrar və ya oxşar elanlar (marka/model, rəng) ödənişlidir.</li>
+        <li>Elanınızı saytın ön sıralarında görmək üçün "İrəli çək" xidmətindən istifadə edin.
+        </li>
+      </ul>
+    <label for="marka" style="text-align: right;">Avtomobilin Markası : </label>
+    <input id="marka" style="text-align:left ;" type="text" placeholder="Markanı daxil edin">
+    <br>
+    <label for="model" style="text-align: right; margin-top: 15px;">Avtomobilin Modeli : </label> 
+    <input  id="model" style=" margin-top: 15px;" type="text" placeholder="Modeli daxil edin">
+    <br>
+    <label for="ban" style="text-align: right; margin-top: 15px;">Avtomobilin Ban Növü : </label>
+     <select  id="ban" style="margin-top: 15px;">
+    <option value="ban novu" selected disabled>Ban Növünü Seçin</option>
+    <option value="sedan">Sedan</option>
+    <option value="hecbek">Heçbek</option>
+    <option value="universal">Universal</option>
+    <option value="suv">Offroader/SUV</option>
+    <option value="avtobus">Avtobus</option>
+<option value="yuk masini">Yük Maşını</option>
+</select>
+<br>
+<label for="yurus" style="text-align: right; margin-top: 15px;">Yürüşü daxil edin</label> <input style="margin-top: 15px;" type="number" min="10000"> <input type="radio"  name="yurus" id="kilometr" value="km"> <label for="kilometr">KM</label> <input type="radio" id="mil"  value="mil" name="yurus"> <label for="mil">MİL</label>
+<br>
+<label for="reng" style="text-align: right; margin-top: 15px;">Avtomobilin Rəngini Seçin : </label>
+ <select  id="ban" style="margin-top: 15px;">
+<option value="ban novu" selected disabled>Rəng Seçin</option>
+<option value="sedan">Qara</option>
+<option value="hecbek">Ağ</option>
+<option value="universal">Boz</option>
+<option value="suv">Tünd Boz</option>
+<option value="avtobus">Qırmızı</option>
+<option value="yuk masini">Göy</option>
+</select>
+
+<br>
+<label for="qiymet" style="text-align: left; margin-top: 15px;">Qiyməti daxil edin</label> <input style="margin-top: 15px;" type="number" min="500"> <input type="radio"  name="qiymet" id="azn" value="azn"> <label for="azn">AZN</label>
+<input type="radio" id="euro"  value="euro" name="qiymet"> <label for="euro">EURO</label>
+<input type="radio" id="dollar"  value="usd" name="qiymet"> <label for="dollar">USD</label>
+<br><br>
+<input type="checkbox"><label for="">Kredit</label>
+<input type="checkbox"><label for="">Barter</label>
+<br>
+<!-- <label for="yanacaq" style= "margin-top: 15px; padding: 0 50px;">Yanacaq Növünü Seçin : </label> -->
+<span style= "margin-top: 15px; text-align: right;">Yanacaq Növünü Seçin : </span>
+ <select  id="ban" style="margin-top: 15px;">
+<option value="ban novu" selected disabled>Yanacaq Seçin</option>
+<option value="sedan">Benzin</option>
+<option value="hecbek">Dizel</option>
+<option value="universal">Hybrid</option>
+<option value="suv">ElectroMobil</option>
+<option value="avtobus">Plug-in-Hybrid</option>
+<option value="yuk masini">Qaz</option>
+</select>
+<br><br>
+<button type="submit" style="background-color:#7ed321 ;border: 1px solid #7ed321; padding:10px 50px ;color: #fff; text-align: center; ">ELANI YARAT</button>
+<br><br>
+<img src="photos/elan-saytlari.jpg.crdownload" width="100%" height="600px" alt="car" style="margin-top:auto; padding: auto">
+    </form>
+
+
+</body>
+</html>
